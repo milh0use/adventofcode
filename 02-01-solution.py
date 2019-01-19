@@ -22,7 +22,5 @@ with open("data/02-inputdata.txt") as f:
         if has_three_chars:
             ids_with_three_chars += 1
 
-print("Number of ids with two chars: ",ids_with_two_chars)
-print("Number of ids with two and three chars: ",ids_with_three_chars)
 checksum = ids_with_two_chars * ids_with_three_chars
 print("Checksum = ", checksum)
